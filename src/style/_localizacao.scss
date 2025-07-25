@@ -1,0 +1,31 @@
+
+.localizacao{
+    padding: 80px 20px;
+    background: linear-gradient(to bottom, #ffff, #000);
+    text-align: center;
+
+    .container{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    &__titulo{
+        font-size: 2.5rem;
+        color: blueviolet;
+        margin-bottom: 24px;
+    }
+
+    &__descricao,
+    &__endereco{
+        font-size: 1.2rem;
+        color: #333;
+        margin-bottom: 40px;
+        line-height: 1.6;
+    }
+
+    &__mapa{
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0,0,0, .15);
+    }
+}
