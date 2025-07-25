@@ -1,0 +1,39 @@
+
+.confirmacao{
+    padding: 80px 20px;
+    background: linear-gradient(to bottom, #000, #fff);
+    text-align: center;
+
+    .container{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    &__titulo{
+        font-size: 2.5rem;
+        color: blueviolet;
+        margin-bottom: 24px;
+    }
+
+    &__descricao{
+        font-size: 1.2rem;
+        color: #444;
+        margin-bottom: 40px;
+        line-height: 1.6;
+    }
+
+    &__lista{
+        padding: 0;
+        font-size: 1.1rem;
+        color: #555;
+        max-width: 360px;  
+        margin: 0 auto;
+        
+        li{
+            background-color: rgba(255, 255, 255, 0.308);
+            border-radius: 8px;
+            padding: 12px 16px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+    }
+}
