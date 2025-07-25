@@ -1,0 +1,42 @@
+.hero{
+    height: 100vh;
+    background-image: url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        background-color: rgba(255, 255, 255, 0.377);
+        padding: 40px;
+        border-radius: 15px;
+        max-width: 90%;
+
+        .contador{
+            background-color: rgba(255, 255, 255, 0);
+
+            &__titulo{
+                font-size: 1.9rem;
+                color: rgb(0, 0, 0);
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+
+            &__msg{
+                font-size: 1.7rem;
+                color: rgb(0, 0, 0);
+            }
+        }
+    }
+    .titulo{
+        font-size: 3em;
+        color: #400150;
+    }
+}
