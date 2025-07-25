@@ -1,0 +1,39 @@
+
+.duvidas{
+    background: linear-gradient(to bottom, #fff, #000);
+    padding: 80px 20px;
+    text-align: center;
+
+    .contaner{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    &__titulo{
+        font-size: 2.2rem;
+        color: #333;
+        margin-bottom: 16px;
+    }
+
+    &__texto{
+        font-size: 1.2rem;
+        color: #444;
+        margin-bottom: 32px;
+        line-height: 1.6;
+    }
+
+    &__botao{
+        background-color: #400150;
+        color: #fff;
+        padding: 12px 24px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+
+        &:hover{
+            background-color: #5a005f;
+        }
+    }
+}
