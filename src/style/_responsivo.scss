@@ -1,38 +1,18 @@
-@use 'variaveis' as *;
-
-@media(max-width: 480px){
-    body{
-        font-size: 90%;
+@media (max-width: 768px) {
+.duvidas {
+    .contaner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
     }
 
-    .duvidas{
-        .container{
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-    }
-        &__titulo{
-            font-size: 1.6rem;
-        }
-
-        &__texto{
-            font-size: 1rem;
-        }
-
-        &__botao{
-            padding: 10px 18px;
-            font-size: 0.95rem;
-        }
-    }
-
-
-@media(max-width: 330px){
-    .duvidas{
-        .container{
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
+        &__botao {
+        display: block;
+        width: 100%;
+        padding: 16px;
+        font-size: 1rem;
+        margin-bottom: 12px;
         }
     }
 }
