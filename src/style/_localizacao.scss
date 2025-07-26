@@ -1,7 +1,8 @@
+@use 'variaveis' as *;
 
 .localizacao{
     padding: 80px 20px;
-    background: linear-gradient(to bottom, #ffff, #000);
+    background: $gradiente-principal;
     text-align: center;
 
     .container{
@@ -11,14 +12,14 @@
 
     &__titulo{
         font-size: 2.5rem;
-        color: blueviolet;
+        color: $rosa-escuro;
         margin-bottom: 24px;
     }
 
     &__descricao,
     &__endereco{
         font-size: 1.2rem;
-        color: #333;
+        color:$azul-escuro;
         margin-bottom: 40px;
         line-height: 1.6;
     }
@@ -26,6 +27,6 @@
     &__mapa{
         border-radius: 12px;
         overflow: hidden;
-        box-shadow: 0 4px 12px rgba(0,0,0, .15);
+        box-shadow:$shadow-padrao;
     }
 }

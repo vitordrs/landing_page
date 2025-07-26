@@ -2,6 +2,8 @@
 @use 'localizacao';
 @use 'confirmacao';
 @use 'duvidas';
+@use 'variaveis' as *;
+@use 'responsivo';
 
 *{
     margin: 0;
@@ -11,10 +13,24 @@
 }
 
 .rodape{
-    background-color: #f3e9f7;
+    background-color: $rosa-claro;
     text-align: center;
     padding: 20px;
     font-size: 1rem;
-    color: #666;
+    color: $cinza-escuro;
     font-style: italic;
+}
+
+@media (max-width: 1023px){
+    .rodape{
+        font-size: 0.95rem;
+        padding: 18px;
+    }
+}
+
+@media(max-width:620px){
+    .rodape{
+        font-size: 0.9rem;
+        padding: 16px;
+    }
 }

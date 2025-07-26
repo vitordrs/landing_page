@@ -1,0 +1,16 @@
+// Paleta principal
+$azul-claro: #a7d5ff; 
+$rosa-claro: #f8c9dc; 
+$azul-escuro: #052fec; 
+$rosa-escuro: #e68aa3; 
+
+// Neutros
+$branco: #ffffff; 
+$preto: #000000; 
+$cinza-claro: #f8f9fa;
+$cinza-escuro: #333333; 
+
+// Gradientes e efeitos
+$gradiente-principal: linear-gradient(to bottom, $azul-claro, $rosa-claro); 
+$gradiente-inverso: linear-gradient(to bottom, $rosa-claro, $azul-claro);
+$shadow-padrao: 0 4px 12px rgba(0, 0, 0, 0.15); 

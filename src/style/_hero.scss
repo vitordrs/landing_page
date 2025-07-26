@@ -1,13 +1,18 @@
+@use 'variaveis' as *;
+
 .hero{
     height: 100vh;
-    background-image: url(../img/hero.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+        background-image:
+        url(../img/hero.jpeg),
+        linear-gradient(to bottom,$rosa-claro 10%,  $rosa-claro 40%, $azul-claro 70%, $azul-claro 90%);
+        background-repeat: no-repeat, no-repeat;
+        background-size: contain, cover !important; 
+        background-position: center, center;
+        background-blend-mode: normal, multiply;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
 
     .container{
         display: flex;
@@ -24,19 +29,19 @@
 
             &__titulo{
                 font-size: 1.9rem;
-                color: rgb(0, 0, 0);
+                color: $preto;
                 margin-top: 15px;
                 margin-bottom: 15px;
             }
 
             &__msg{
                 font-size: 1.7rem;
-                color: rgb(0, 0, 0);
+                color: $preto;
             }
         }
     }
     .titulo{
         font-size: 3em;
-        color: #400150;
+        color: $rosa-escuro;
     }
 }

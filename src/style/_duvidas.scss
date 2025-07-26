@@ -1,6 +1,7 @@
+@use 'variaveis' as *;
 
 .duvidas{
-    background: linear-gradient(to bottom, #fff, #000);
+    background: $gradiente-principal;
     padding: 80px 20px;
     text-align: center;
 
@@ -11,29 +12,31 @@
 
     &__titulo{
         font-size: 2.2rem;
-        color: #333;
+        color: $rosa-escuro;
         margin-bottom: 16px;
     }
 
     &__texto{
         font-size: 1.2rem;
-        color: #444;
+        color: $azul-escuro;
         margin-bottom: 32px;
         line-height: 1.6;
     }
 
     &__botao{
-        background-color: #400150;
-        color: #fff;
+        background-color: $rosa-escuro;
+        color: $azul-claro;
+        border: 1px solid $cinza-escuro;
         padding: 12px 24px;
         border-radius: 8px;
         text-decoration: none;
         font-weight: bold;
-        transition: background-color 0.3s ease;
+        transition:  0.9s ease;
         cursor: pointer;
 
         &:hover{
-            background-color: #5a005f;
+            background-color: $rosa-claro;
+            color: $azul-escuro;
         }
     }
 }
