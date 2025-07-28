@@ -34,7 +34,27 @@
             background-color: rgba(255, 255, 255, 0.473);
             border-radius: 8px;
             padding: 12px 16px;
-            box-shadow: $shadow-padrao
+            box-shadow: $shadow-padrao;
+            &:last-child{
+                margin-bottom: 30px;
+            }
+        }
+    }
+    &__botao{
+        background-color: $rosa-escuro;
+        color: $azul-claro;
+        border: 1px solid $cinza-escuro;
+        padding: 12px 24px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        transition:  0.9s ease;
+        cursor: pointer;
+        margin-left: 8px;
+
+        &:hover{
+            background-color: $rosa-claro;
+            color: $azul-escuro;
         }
     }
 }
