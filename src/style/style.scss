@@ -2,6 +2,7 @@
 @use 'localizacao';
 @use 'confirmacao';
 @use 'duvidas';
+@use 'presente';
 @use 'variaveis' as *;
 @use 'responsivo';
 
@@ -13,7 +14,7 @@
 }
 
 .rodape{
-    background-color: $rosa-claro;
+    background-color: $gradiente-principal;
     text-align: center;
     padding: 20px;
     font-size: 1rem;
